@@ -1,0 +1,3 @@
+1. 함수 리턴
+    : python은 return 값으로 여러 개 return 가능
+      tuple로 받을 수 있음
