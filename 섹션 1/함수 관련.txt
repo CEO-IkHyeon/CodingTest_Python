@@ -1,3 +1,21 @@
 1. 함수 리턴
     : python은 return 값으로 여러 개 return 가능
       tuple로 받을 수 있음
+
+---------------------------------------------------------------------
+2. 람다 함수
+	: 내장함수의 인자로 사용 시 편리함
+
+	ex) plus_2 = lambda x: x+2
+		print(plus_2(1)) --> 3
+		: x값을 넘기면 x+2를 return
+
+	ex) def plus_one(x):
+			return x + 1
+		a = [1,2,3]
+		print(list(map(plus_one, a)))
+
+		이렇게 하지 않고 람다를 활용하면 더 간단해진다
+
+		print(list(map(lambda x: x+1, a)))
+		: plus_one 과 lambda x: x+1 은 동일한 기능을 수행함
