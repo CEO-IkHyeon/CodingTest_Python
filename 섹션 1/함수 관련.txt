@@ -1,3 +1,7 @@
 1. 함수 리턴
     : python은 return 값으로 여러 개 return 가능
       tuple로 받을 수 있음
+
+def isPrime(A):
+    if !any(A % i == 0 for i in range(2, A)):
+        return true
