@@ -9,7 +9,7 @@ avgScore = round(sum(lst) / n)
 
 min_error = lst[0]
 res = 0
-score = 0
+score = 0 
 for idx, num in enumerate(lst):
     tmp = abs(num-avgScore)
 
