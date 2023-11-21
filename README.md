@@ -8,3 +8,11 @@
     * Class02 2문제 풀이 완료
         - 4153 : 직각삼각형
         - 1978 : 소수 찾기
+
+* 노트북 
+    * import sys
+    sys.stdin = open(r"C:\Users\andan\OneDrive\Desktop\PythonCoTe\CodingTest_Python\Class02\input.txt", "rt")
+
+* 컴퓨터
+    * import sys
+    sys.stdin = open(r"C:\Users\user\Desktop\CodingTest_Python\Class02\input.txt", "rt")
